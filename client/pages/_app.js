@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default ({ Component, pageProps }) => {
+const BootstrapWrapper = ({ Component, pageProps }) => {
   return <Component {...pageProps} />
 }
+export default BootstrapWrapper
